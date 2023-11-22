@@ -25,24 +25,29 @@ Mesela bir cüzdan oluşturalım. Kelimlerimiz (ingilizce): barrel card promote 
 1. adım Genel/Açık Anahtarımızı (Public Key) hesaplayalım: 041e6972c9ec060a506c8f0bc12608d0fa97da88d83e38b453ab61c9d9863ec2d51b1a96e6c67c8691013ac70ba4cca8138c6abc57e67ed7780523be7a7ebe44bc (130 karakterdir)
 
 Burada 04 sayısı her zaman bulunur.
+
 x Koordinatı => 1e6972c9ec060a506c8f0bc12608d0fa97da88d83e38b453ab61c9d9863ec2d5
+
 y Koordinatı => 1b1a96e6c67c8691013ac70ba4cca8138c6abc57e67ed7780523be7a7ebe44bc
 
 # Sıkıştırılmış Genel Anahtar nedir?
 Zamanla kullanıcılar aslında X koordinatının kendini tekrar ettiğini farkettiler. 
 
-0000000000000000000000000000000000000000000000000000000000000001 özel anahtarının X koordinatı 79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798
-fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 özel anahtarının X koordinatı 79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798 dır.
+**0000000000000000000000000000000000000000000000000000000000000001** özel anahtarının X koordinatı 79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798
+
+
+**fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140** özel anahtarının X koordinatı 79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798 dır.
 
 Y koordinatları ise farklıdır.
 
 Hal böyle olunca Sıkıştırılmış adres diye bişey çıktı. X koordinatının başına 02 ve 03 getirerek daha kısa ve daha küçük bir sayı ile işlem yapılabildiğini keşfettiler.
 
-0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798 
-0379be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798
+**0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798** 
+**0379be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798**
 
 Evet bunlar ortada bir yerde buluşuyorlar.
 
-7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0
-7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a1 özel anahtarlarının X koordinatları yine aynı ancak Y koordinatları farklı.
+**"7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0"**
+
+**"7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a1"** özel anahtarlarının X koordinatları yine aynı ancak Y koordinatları farklı.
 
